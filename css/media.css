@@ -21,7 +21,11 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-.callbackform .blockform_wrap {
+.operations h2 {
+	margin-top: 30px
+}
+
+.callbackform .blockform_wrap  {
     margin-top: 30px;
 }
 
@@ -52,7 +56,18 @@ body p {
 	
 	width: 80px;
 	height: 80px;
+}
 
+.callbackform .form_descrwrap h2 {
+	font-size: 18px;
+}
+
+.callbackform .form_descrwrap h3 {
+	font-size: 16px;
+}
+
+.callbackform .pop_form input, .callbackform .pop_form .aboutyou {
+	font-size: 12px;
 }
 	
 }

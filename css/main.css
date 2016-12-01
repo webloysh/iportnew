@@ -1,0 +1,302 @@
+body {
+  font-family: "Bender", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+.top_header {
+  min-height: 620px;
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100%; }
+
+.bglayer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0; }
+  .bglayer:after {
+    content: "";
+    background: url(../img/bgmain.svg) no-repeat center center;
+    background-size: contain;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; }
+
+.header_topline {
+  padding-top: 20px; }
+  .header_topline .contact_icons_wrap {
+    float: left; }
+  .header_topline .top_nav_wrap {
+    display: block;
+    float: left;
+    font-size: 16px;
+    color: #8b8c8b; }
+    .header_topline .top_nav_wrap a {
+      color: #8b8c8b; }
+    .header_topline .top_nav_wrap .bars_wrap {
+      font-size: 16px;
+      display: inline-block; }
+    .header_topline .top_nav_wrap .top_nav {
+      display: inline-block; }
+      .header_topline .top_nav_wrap .top_nav ul {
+        padding: 0;
+        margin: 0 20px; }
+        .header_topline .top_nav_wrap .top_nav ul li {
+          display: inline-block;
+          list-style-type: none; }
+
+.header_info {
+  display: table;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+  .header_info .right {
+    text-align: left; }
+  .header_info .left {
+    text-align: right; }
+  .header_info .header_info_row {
+    display: table-row; }
+    .header_info .header_info_row .header_info_centered {
+      display: table-cell;
+      vertical-align: middle; }
+      .header_info .header_info_row .header_info_centered .logo_wrap {
+        text-align: center;
+        margin-bottom: 20px; }
+        .header_info .header_info_row .header_info_centered .logo_wrap .iportlogo {
+          width: 150px;
+          height: 150px; }
+      .header_info .header_info_row .header_info_centered .company_descr_wrap {
+        text-align: right;
+        display: inline-block;
+        padding-bottom: 10px; }
+        .header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap {
+          padding: 0;
+          margin: 0; }
+          .header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap h1 {
+            font-size: 60px;
+            font-weight: 800;
+            color: #fe5b5d;
+            padding: 0;
+            margin: 0; }
+        .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap {
+          padding-bottom: 0; }
+          .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1 {
+            color: #2db2c4;
+            font-family: Roboto;
+            font-weight: 300;
+            font-size: 18px;
+            padding: 0;
+            margin: 0;
+            letter-spacing: 1px; }
+      .header_info .header_info_row .header_info_centered .company_operations {
+        display: inline-block;
+        left: 50%;
+        padding: 0; }
+        .header_info .header_info_row .header_info_centered .company_operations ul {
+          padding: 0; }
+          .header_info .header_info_row .header_info_centered .company_operations ul li {
+            list-style-type: none;
+            margin-bottom: 4px; }
+            .header_info .header_info_row .header_info_centered .company_operations ul li p {
+              font-family: Roboto;
+              font-weight: 300;
+              color: #2db2c4;
+              padding: 0;
+              margin: 0; }
+            .header_info .header_info_row .header_info_centered .company_operations ul li i {
+              margin-right: 5px; }
+
+.dark_wrap {
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.button_wrap {
+  margin-top: 40px;
+  text-align: center; }
+  .button_wrap i {
+    margin-right: 10px; }
+
+.button {
+  font-family: Roboto;
+  font-weight: 300;
+  letter-spacing: 1px;
+  border: 1px #2db2c4 solid;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #2db2c4;
+  background-color: rgba(0, 0, 0, 0.1); }
+  .button:hover {
+    background-color: rgba(0, 0, 0, 0.2); }
+
+.aboutus {
+  color: #fff;
+  background-color: #2db2c4;
+  padding-bottom: 60px;
+  padding-top: 60px; }
+  .aboutus .aboutus_text_wrap {
+    margin-top: 40px; }
+    .aboutus .aboutus_text_wrap span {
+      font-weight: 800; }
+  .aboutus h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px; }
+  .aboutus p {
+    font-weight: 400; }
+  .aboutus .column_wrap {
+    padding-bottom: 10px; }
+
+.sectionicons {
+  width: 100px;
+  height: 100px; }
+
+.icon_wrap {
+  text-align: center; }
+
+.operations {
+  background-color: #fe5b5d;
+  color: #fff;
+  padding-bottom: 60px; }
+  .operations .block_wrap {
+    margin-top: 10px;
+    margin-bottom: 20px; }
+  .operations .block_descr_wrap {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 100%; }
+    .operations .block_descr_wrap i {
+      margin-right: 10px; }
+  .operations .dark_row_wrap {
+    background-color: #eb5456; }
+  .operations h2 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .operations h3 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+  .operations p {
+    font-weight: normal;
+    margin: 0;
+    padding: 5px; }
+  .operations ul {
+    padding: 0;
+    list-style-type: none; }
+
+.callbackform {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 620px; }
+  .callbackform .bglayer {
+    position: relative;
+    min-height: 620px; }
+    .callbackform .bglayer:after {
+      background: url(../img/bg_eur_4c.svg) no-repeat center right; }
+  .callbackform .blockform_wrap {
+    margin-top: 60px; }
+  .callbackform .form_descrwrap {
+    text-align: center;
+    margin-bottom: 40px; }
+    .callbackform .form_descrwrap h2 {
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0; }
+    .callbackform .form_descrwrap h3 {
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0; }
+  .callbackform .pop_form {
+    left: 100px; }
+    .callbackform .pop_form input {
+      display: block;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 1px solid #2db2c4;
+      color: #fff;
+      font-family: Bender;
+      font-size: 14px;
+      height: 24px;
+      margin: 10px auto;
+      padding-left: 4px;
+      padding-top: 0;
+      padding-bottom: 0;
+      max-width: 460px;
+      width: 100%; }
+    .callbackform .pop_form .aboutyou {
+      height: 144px;
+      margin: 10px auto;
+      display: block;
+      background-color: rgba(0, 0, 0, 0.1);
+      border: 1px solid #2db2c4;
+      color: #fff;
+      width: 100%;
+      max-width: 460px;
+      resize: none;
+      padding-left: 4px; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #55feb4; }
+  footer .contacts_wrap {
+    text-align: center; }
+    footer .contacts_wrap .minilogo_wrap {
+      display: inline-block;
+      margin: 10px; }
+      footer .contacts_wrap .minilogo_wrap h1 {
+        font-weight: 800;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 1px; }
+  footer .contacts {
+    display: inline-block;
+    margin: 10px;
+    text-align: center; }
+    footer .contacts p {
+      padding: 0;
+      margin: 0;
+      font-weight: 400; }
+    footer .contacts a {
+      color: #1fc87e; }
+
+/*# sourceMappingURL=main.css.map */

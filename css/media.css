@@ -39,8 +39,23 @@ body p {
 	font-size: 12px;
 }
 
+.col-xs-6 {
+	padding-left: 5px;
+    padding-right: 10px;
+}
+
 
 .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1  {
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+.header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1 br  {
+	display: inline-block;
+}
+
+.header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h2  {
+	margin-top: 15px;
 	font-size: 15px;
 }
 
@@ -69,7 +84,26 @@ body p {
 .callbackform .pop_form input, .callbackform .pop_form .aboutyou {
 	font-size: 12px;
 }
-	
+
+.header_info .header_info_row .header_info_centered .logo_wrap {
+	margin-bottom: 5px;	
+}
+
+.header_info .top_nav_wrap .top_nav {
+	font-size: 12px;
+}
+
+.header_info .top_nav_wrap .top_nav a {
+	padding: 2px 0px
+}
+			
+.button {
+	font-size: 12px;
+	padding: 8px 16px
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+
 }
 
 /* Custom, iPhone Retina */

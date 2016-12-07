@@ -43,29 +43,6 @@ body textarea:required:valid {
     position: absolute;
     z-index: -1; }
 
-.header_topline {
-  padding-top: 20px; }
-  .header_topline .contact_icons_wrap {
-    float: left; }
-  .header_topline .top_nav_wrap {
-    display: block;
-    float: left;
-    font-size: 16px;
-    color: #8b8c8b; }
-    .header_topline .top_nav_wrap a {
-      color: #8b8c8b; }
-    .header_topline .top_nav_wrap .bars_wrap {
-      font-size: 16px;
-      display: inline-block; }
-    .header_topline .top_nav_wrap .top_nav {
-      display: inline-block; }
-      .header_topline .top_nav_wrap .top_nav ul {
-        padding: 0;
-        margin: 0 20px; }
-        .header_topline .top_nav_wrap .top_nav ul li {
-          display: inline-block;
-          list-style-type: none; }
-
 .header_info {
   display: table;
   position: absolute;
@@ -74,10 +51,34 @@ body textarea:required:valid {
   top: 0;
   left: 0;
   z-index: 10; }
+  .header_info .header_nav {
+    display: table-row; }
   .header_info .right {
     text-align: left; }
   .header_info .left {
     text-align: right; }
+  .header_info .top_nav_wrap {
+    display: table-cell;
+    width: 100%;
+    text-align: center; }
+    .header_info .top_nav_wrap .top_nav {
+      font-size: 14px;
+      display: inline-block;
+      text-transform: uppercase; }
+      .header_info .top_nav_wrap .top_nav ul {
+        padding: 0 0;
+        margin-top: 10px;
+        margin-bottom: 0; }
+        .header_info .top_nav_wrap .top_nav ul li {
+          display: inline-block;
+          list-style-type: none;
+          padding: 0 10px; }
+      .header_info .top_nav_wrap .top_nav a {
+        background-color: rgba(0, 0, 0, 0.1);
+        color: #28d187;
+        padding: 5 0px; }
+        .header_info .top_nav_wrap .top_nav a:hover {
+          border-bottom: 1px solid #28d187; }
   .header_info .header_info_row {
     display: table-row; }
     .header_info .header_info_row .header_info_centered {
@@ -96,22 +97,33 @@ body textarea:required:valid {
         .header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap {
           padding: 0;
           margin: 0; }
-          .header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap h1 {
-            font-size: 60px;
-            font-weight: 800;
-            color: #fe5b5d;
-            padding: 0;
-            margin: 0; }
+        .header_info .header_info_row .header_info_centered .company_descr_wrap h1 {
+          font-size: 60px;
+          font-weight: 800;
+          color: #fe5b5d;
+          padding: 0;
+          margin: 0; }
         .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap {
           padding-bottom: 0; }
           .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1 {
             color: #2db2c4;
             font-family: Roboto;
             font-weight: 300;
-            font-size: 18px;
+            font-size: 20px;
             padding: 0;
             margin: 0;
             letter-spacing: 1px; }
+            .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1 span {
+              color: #55feb4; }
+            .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1 br {
+              display: none; }
+          .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h2 {
+            color: #2db2c4;
+            font-family: Roboto;
+            font-weight: 300;
+            font-size: 18px;
+            padding: 0;
+            margin: 5px 0px; }
       .header_info .header_info_row .header_info_centered .company_operations {
         display: inline-block;
         left: 50%;
@@ -142,15 +154,16 @@ body textarea:required:valid {
 .button {
   font-family: Roboto;
   font-weight: 300;
+  text-transform: uppercase;
   letter-spacing: 1px;
   border: 1px #2db2c4 solid;
   border-radius: 10px;
   padding: 10px 20px;
   margin: 10px;
   color: #2db2c4;
-  background-color: rgba(0, 0, 0, 0.1); }
+  background-color: rgba(0, 0, 0, 0.6); }
   .button:hover {
-    background-color: rgba(0, 0, 0, 0.2); }
+    background-color: rgba(0, 0, 0, 0.9); }
 
 .aboutus {
   color: #fff;

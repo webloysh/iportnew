@@ -17,7 +17,21 @@ $(document).ready(function() {
 		heightDetect();
 	});	
 
+	$(".toggle_mnu").click(function() {
+		$(".top_mnu").removeClass("hidden");
+	}).append("<span>");
 
+
+	// $(".toggle_mnu").click(function() {
+	// 	if ($(".top_mnu").is(":visible")) {
+	// 		$(".top_mnu").addClass("hidden");
+	// 	} else {
+	// 		$(".top_mnu").removeClass("hidden");
+	// 	};
+	// });
+
+	$(".top_mnu ul li a").click(function() { 
+	$(".top_mnu").addClass("hidden"); });
 
 	// //Навигация по Landing Page
 	// //$(".top_mnu") - это верхняя панель со ссылками.

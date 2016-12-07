@@ -186,6 +186,8 @@ body textarea:required:valid {
     font-weight: 400; }
   .aboutus .column_wrap {
     padding-bottom: 10px; }
+    .aboutus .column_wrap hr {
+      width: 100%; }
 
 .sectionicons {
   width: 100px;
@@ -206,7 +208,8 @@ body textarea:required:valid {
     margin-bottom: 20px;
     height: 100%; }
     .operations .block_descr_wrap i {
-      margin-right: 10px; }
+      margin-right: 10px;
+      color: #000; }
   .operations .dark_row_wrap {
     background-color: #eb5456; }
   .operations h2 {

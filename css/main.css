@@ -231,10 +231,10 @@ body textarea:required:valid {
   .operations h2 {
     text-align: center;
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 800;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-transform: uppercase;
     letter-spacing: 2px; }
   .operations h3 {
@@ -268,14 +268,14 @@ body textarea:required:valid {
     margin-bottom: 40px; }
     .callbackform .form_descrwrap h2 {
       font-family: Roboto;
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 600;
       text-transform: uppercase;
       padding: 0;
       margin: 0; }
     .callbackform .form_descrwrap h3 {
       font-family: Roboto;
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 600;
       text-transform: uppercase;
       padding: 0;

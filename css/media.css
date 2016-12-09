@@ -21,9 +21,19 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 
-.operations h2 {
-	margin-top: 30px
+.top_header {
+	min-height: 480px;
 }
+
+.operations h2 {
+	margin-top: 18px;
+	margin-bottom: 18px;
+	font-size: 18px;
+}
+.operations {
+	    padding-bottom: 30px;
+}
+
 
 .callbackform .blockform_wrap  {
     margin-top: 30px;
@@ -115,6 +125,12 @@
 	font-size: 12px;
 	padding: 8px 16px
 	background-color: rgba(0, 0, 0, 0.0);
+}
+
+
+.aboutus {
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 

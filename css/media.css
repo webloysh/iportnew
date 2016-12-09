@@ -1,0 +1,154 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {	
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.operations h2 {
+	margin-top: 30px
+}
+
+.callbackform .blockform_wrap  {
+    margin-top: 30px;
+}
+
+
+.header_info .header_info_row .header_info_centered .logo_wrap .iportlogo {
+	width: 100px;
+	height: 100px;
+}
+
+
+.col-xs-6 {
+	padding-left: 5px;
+    padding-right: 10px;
+}
+
+
+/*.header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1  {
+	margin-top: 15px;
+	font-size: 15px;
+}*/
+.header_info .header_info_row .header_info_centered .company_descr_wrap h1 {
+	font-size: 14px;
+}
+
+
+
+
+.header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1 br  {
+	display: inline-block;
+}
+
+/*.header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h2  {
+	margin-top: 15px;
+	font-size: 15px;
+}
+*/
+.header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap h1 {
+	font-size: 48px;
+}
+
+.header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h2 {
+	font-size: 10px;
+}
+
+.header_info .header_info_row .header_info_centered .company_operations ul li p {
+	font-size: 12px;
+}
+
+
+
+
+.button_wrap {
+	margin-top: 20px;
+}
+
+.sectionicons {
+	
+	width: 80px;
+	height: 80px;
+}
+
+.callbackform .form_descrwrap h2 {
+	font-size: 18px;
+}
+
+.callbackform .form_descrwrap h3 {
+	font-size: 16px;
+}
+
+.callbackform .pop_form input, .callbackform .pop_form .aboutyou {
+	font-size: 12px;
+}
+
+/*.header_info .header_info_row .header_info_centered .logo_wrap {
+	margin-bottom: 5px;	
+}*/
+
+.header_info .top_nav_wrap .top_nav {
+	font-size: 12px;
+}
+
+.header_info .top_nav_wrap .top_nav a {
+	padding: 2px 0px
+}
+			
+.button {
+	font-size: 12px;
+	padding: 8px 16px
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

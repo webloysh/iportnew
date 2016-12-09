@@ -62,6 +62,7 @@ body textarea:required:valid {
     width: 100%;
     text-align: center; }
     .header_info .top_nav_wrap .top_nav {
+      color: #2db2c4;
       font-size: 14px;
       display: inline-block;
       text-transform: uppercase; }
@@ -75,7 +76,7 @@ body textarea:required:valid {
           padding: 0 10px; }
       .header_info .top_nav_wrap .top_nav a {
         background-color: rgba(0, 0, 0, 0.1);
-        color: #28d187;
+        color: #2db2c4;
         padding: 5 0px; }
         .header_info .top_nav_wrap .top_nav a:hover {
           border-bottom: 1px solid #28d187; }
@@ -85,45 +86,44 @@ body textarea:required:valid {
       display: table-cell;
       vertical-align: middle; }
       .header_info .header_info_row .header_info_centered .logo_wrap {
-        text-align: center;
-        margin-bottom: 20px; }
+        margin-top: 20px;
+        margin-left: 20px; }
         .header_info .header_info_row .header_info_centered .logo_wrap .iportlogo {
-          width: 150px;
-          height: 150px; }
+          width: 110px;
+          height: 110px; }
       .header_info .header_info_row .header_info_centered .company_descr_wrap {
-        text-align: right;
         display: inline-block;
-        padding-bottom: 10px; }
+        padding-bottom: 0;
+        margin-top: 0; }
+        .header_info .header_info_row .header_info_centered .company_descr_wrap h1 {
+          color: #2db2c4;
+          font-family: Roboto;
+          font-weight: 600;
+          font-size: 16px;
+          padding: 0;
+          margin: 0;
+          letter-spacing: 1px; }
+          .header_info .header_info_row .header_info_centered .company_descr_wrap h1 span {
+            color: #55feb4; }
+          .header_info .header_info_row .header_info_centered .company_descr_wrap h1 br {
+            display: none; }
+        .header_info .header_info_row .header_info_centered .company_descr_wrap h2 {
+          color: #2db2c4;
+          font-family: Roboto;
+          font-weight: 400;
+          font-size: 14px;
+          padding: 0;
+          margin: 0; }
         .header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap {
           padding: 0;
           margin: 0; }
-        .header_info .header_info_row .header_info_centered .company_descr_wrap h1 {
-          font-size: 60px;
-          font-weight: 800;
-          color: #fe5b5d;
-          padding: 0;
-          margin: 0; }
-        .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap {
-          padding-bottom: 0; }
-          .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1 {
-            color: #2db2c4;
-            font-family: Roboto;
-            font-weight: 600;
-            font-size: 20px;
+          .header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap h1 {
+            font-family: Bender;
+            font-size: 60px;
+            font-weight: 800;
+            color: #fe5b5d;
             padding: 0;
-            margin: 0;
-            letter-spacing: 1px; }
-            .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1 span {
-              color: #55feb4; }
-            .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h1 br {
-              display: none; }
-          .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h2 {
-            color: #2db2c4;
-            font-family: Roboto;
-            font-weight: 400;
-            font-size: 18px;
-            padding: 0;
-            margin: 5px 0px; }
+            margin: 0; }
       .header_info .header_info_row .header_info_centered .company_operations {
         display: inline-block;
         left: 50%;
@@ -143,6 +143,21 @@ body textarea:required:valid {
               margin-right: 5px;
               color: #28d187; }
 
+.header_info .contacts_wrap {
+  margin-top: 14px;
+  color: #55feb4;
+  display: inline-block;
+  padding: 0; }
+  .header_info .contacts_wrap p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4px;
+    font-weight: 400; }
+  .header_info .contacts_wrap a {
+    color: #1fc87e; }
+    .header_info .contacts_wrap a:hover {
+      border-bottom: 1px solid #2db2c4; }
+
 .dark_wrap {
   background-color: rgba(0, 0, 0, 0.6); }
 
@@ -155,11 +170,12 @@ body textarea:required:valid {
 .button {
   font-family: Roboto;
   font-weight: 300;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
   border: 1px #2db2c4 solid;
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: 8px 16px;
   margin: 10px;
   color: #2db2c4;
   background-color: rgba(0, 0, 0, 0.6); }
@@ -209,7 +225,7 @@ body textarea:required:valid {
     height: 100%; }
     .operations .block_descr_wrap i {
       margin-right: 10px;
-      color: #000; }
+      color: #28d187; }
   .operations .dark_row_wrap {
     background-color: #eb5456; }
   .operations h2 {
@@ -315,5 +331,9 @@ footer {
       font-weight: 400; }
     footer .contacts a {
       color: #1fc87e; }
+    footer .contacts h3 {
+      padding: 0;
+      margin: 0;
+      font-weight: 400; }
 
 /*# sourceMappingURL=main.css.map */

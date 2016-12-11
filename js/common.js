@@ -17,10 +17,12 @@ $(document).ready(function() {
 		heightDetect();
 	});	
 
-	$(".toggle_mnu").click(function() {
-		$(".top_mnu").removeClass("hidden");
-	}).append("<span>");
-
+	//SVG Fallback
+	if(!Modernizr.svg) {
+		$("img[src*='svg']").attr("src", function() {
+			return $(this).attr("src").replace(".svg", ".png");
+		});
+	};
 
 	// $(".toggle_mnu").click(function() {
 	// 	if ($(".top_mnu").is(":visible")) {
@@ -30,8 +32,6 @@ $(document).ready(function() {
 	// 	};
 	// });
 
-	$(".top_mnu ul li a").click(function() { 
-	$(".top_mnu").addClass("hidden"); });
 
 	// //Навигация по Landing Page
 	// //$(".top_mnu") - это верхняя панель со ссылками.

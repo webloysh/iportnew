@@ -80,15 +80,17 @@
 	font-size: 10px;
 }
 
-.header_info .header_info_row .header_info_centered .company_operations ul li p {
+.header_info .header_info_row .header_info_centered .company_operations ul li {
+	font-size: 12px;
+}
+.header_info .contacts_wrap li {
 	font-size: 12px;
 }
 
 
 
-
 .button_wrap {
-	margin-top: 20px;
+	margin-top: 10px;
 }
 
 .sectionicons {

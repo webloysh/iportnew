@@ -1,5 +1,5 @@
 body {
-  font-family: "Bender", sans-serif;
+  font-family: "Bender", sans-serif, Arial;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
@@ -19,29 +19,29 @@ body textarea:required:valid {
   display: none; }
 
 .top_header {
+  font-size: 18px;
   min-height: 620px;
   background-color: rgba(0, 0, 0, 0.85);
   width: 100%; }
-
-.bglayer {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 0; }
-  .bglayer:after {
-    content: "";
-    background: url(../img/bgmain.svg) no-repeat center center;
-    background-size: contain;
-    opacity: 0.6;
+  .top_header .bglayer {
+    position: absolute;
+    width: 100%;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    position: absolute;
-    z-index: -1; }
+    z-index: 0; }
+    .top_header .bglayer:after {
+      content: "";
+      background: url(../img/bgmain.svg) no-repeat center center;
+      background-size: contain;
+      opacity: 0.6;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1; }
 
 .header_info {
   display: table;
@@ -57,29 +57,25 @@ body textarea:required:valid {
     text-align: left; }
   .header_info .left {
     text-align: right; }
-  .header_info .top_nav_wrap {
-    display: table-cell;
-    width: 100%;
-    text-align: center; }
-    .header_info .top_nav_wrap .top_nav {
+  .header_info .top_nav_wrap .top_nav {
+    color: #2db2c4;
+    font-size: 16px;
+    display: inline-block;
+    text-transform: uppercase; }
+    .header_info .top_nav_wrap .top_nav ul {
+      padding: 0 0;
+      margin-top: 10px;
+      margin-bottom: 0; }
+      .header_info .top_nav_wrap .top_nav ul li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 0 10px; }
+    .header_info .top_nav_wrap .top_nav a {
+      background-color: rgba(0, 0, 0, 0.1);
       color: #2db2c4;
-      font-size: 14px;
-      display: inline-block;
-      text-transform: uppercase; }
-      .header_info .top_nav_wrap .top_nav ul {
-        padding: 0 0;
-        margin-top: 10px;
-        margin-bottom: 0; }
-        .header_info .top_nav_wrap .top_nav ul li {
-          display: inline-block;
-          list-style-type: none;
-          padding: 0 10px; }
-      .header_info .top_nav_wrap .top_nav a {
-        background-color: rgba(0, 0, 0, 0.1);
-        color: #2db2c4;
-        padding: 5 0px; }
-        .header_info .top_nav_wrap .top_nav a:hover {
-          border-bottom: 1px solid #28d187; }
+      padding: 5 0px; }
+      .header_info .top_nav_wrap .top_nav a:hover {
+        border-bottom: 1px solid #28d187; }
   .header_info .header_info_row {
     display: table-row; }
     .header_info .header_info_row .header_info_centered {
@@ -97,9 +93,9 @@ body textarea:required:valid {
         margin-top: 0; }
         .header_info .header_info_row .header_info_centered .company_descr_wrap h1 {
           color: #2db2c4;
-          font-family: Roboto;
+          font-family: "Roboto", sans-serif;
           font-weight: 600;
-          font-size: 16px;
+          font-size: 18px;
           padding: 0;
           margin: 0;
           letter-spacing: 1px; }
@@ -109,50 +105,46 @@ body textarea:required:valid {
             display: none; }
         .header_info .header_info_row .header_info_centered .company_descr_wrap h2 {
           color: #2db2c4;
-          font-family: Roboto;
+          font-family: "Roboto", sans-serif;
           font-weight: 400;
-          font-size: 14px;
+          font-size: 18px;
           padding: 0;
           margin: 0; }
         .header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap {
           padding: 0;
           margin: 0; }
           .header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap h1 {
-            font-family: Bender;
+            font-family: "Bender", sans-serif;
             font-size: 60px;
             font-weight: 800;
             color: #fe5b5d;
             padding: 0;
             margin: 0; }
       .header_info .header_info_row .header_info_centered .company_operations {
-        display: inline-block;
-        left: 50%;
         padding: 0; }
         .header_info .header_info_row .header_info_centered .company_operations ul {
           padding: 0; }
           .header_info .header_info_row .header_info_centered .company_operations ul li {
             list-style-type: none;
-            margin-bottom: 4px; }
-            .header_info .header_info_row .header_info_centered .company_operations ul li p {
-              font-family: Roboto;
-              font-weight: 300;
-              color: #2db2c4;
-              padding: 0;
-              margin: 0; }
+            margin-bottom: 4px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            color: #2db2c4;
+            padding: 0; }
             .header_info .header_info_row .header_info_centered .company_operations ul li i {
               margin-right: 5px;
               color: #28d187; }
 
 .header_info .contacts_wrap {
-  margin-top: 14px;
   color: #55feb4;
   display: inline-block;
   padding: 0; }
-  .header_info .contacts_wrap p {
-    padding: 0;
-    margin: 0;
-    margin-bottom: 4px;
-    font-weight: 400; }
+  .header_info .contacts_wrap ul, .header_info .contacts_wrap li {
+    list-style-type: none;
+    padding: 0; }
+  .header_info .contacts_wrap li {
+    font-weight: 400;
+    margin-bottom: 4px; }
   .header_info .contacts_wrap a {
     color: #1fc87e; }
     .header_info .contacts_wrap a:hover {
@@ -168,7 +160,7 @@ body textarea:required:valid {
     margin-right: 10px; }
 
 .button {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 12px;
   text-transform: uppercase;
@@ -192,7 +184,7 @@ body textarea:required:valid {
     .aboutus .aboutus_text_wrap span {
       font-weight: 800; }
   .aboutus h3 {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -230,7 +222,7 @@ body textarea:required:valid {
     background-color: #eb5456; }
   .operations h2 {
     text-align: center;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 22px;
     font-weight: 800;
     margin-top: 40px;
@@ -238,7 +230,7 @@ body textarea:required:valid {
     text-transform: uppercase;
     letter-spacing: 2px; }
   .operations h3 {
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 600;
     text-align: center;
@@ -255,26 +247,40 @@ body textarea:required:valid {
 .callbackform {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.8);
-  min-height: 620px; }
-  .callbackform .bglayer {
+  height: 620px; }
+  .callbackform .bglayerform {
+    height: 620px;
     position: relative;
-    min-height: 620px; }
-    .callbackform .bglayer:after {
-      background: url(../img/bg_eur_4c.svg) no-repeat center right; }
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0; }
+    .callbackform .bglayerform:after {
+      content: "";
+      background: url(../img/bg_eur_4c.svg) no-repeat center right;
+      opacity: 0.6;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1; }
   .callbackform .blockform_wrap {
     margin-top: 60px; }
   .callbackform .form_descrwrap {
     text-align: center;
     margin-bottom: 40px; }
     .callbackform .form_descrwrap h2 {
-      font-family: Roboto;
+      font-family: "Roboto", sans-serif;
       font-size: 22px;
       font-weight: 600;
       text-transform: uppercase;
       padding: 0;
       margin: 0; }
     .callbackform .form_descrwrap h3 {
-      font-family: Roboto;
+      font-family: "Roboto", sans-serif;
       font-size: 18px;
       font-weight: 600;
       text-transform: uppercase;
@@ -287,7 +293,7 @@ body textarea:required:valid {
       background-color: rgba(0, 0, 0, 0.1);
       border: 1px solid #2db2c4;
       color: #fff;
-      font-family: Bender;
+      font-family: "Bender", sans-serif;
       font-size: 14px;
       height: 24px;
       margin: 10px auto;
@@ -335,5 +341,3 @@ footer {
       padding: 0;
       margin: 0;
       font-weight: 400; }
-
-/*# sourceMappingURL=main.css.map */

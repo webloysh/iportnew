@@ -8,18 +8,25 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {	
 
+.aboutus h3 {
+	font-size: 16px;
+}
 
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width : 480px) {
 
 
 
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 768px) {
+
+.aboutus h3 {
+	font-size: 18px;
+}
 
 .top_header {
 	min-height: 480px;
@@ -73,7 +80,7 @@
 }
 */
 .header_info .header_info_row .header_info_centered .company_descr_wrap .company_name_wrap h1 {
-	font-size: 48px;
+	font-size: 42px;
 }
 
 .header_info .header_info_row .header_info_centered .company_descr_wrap .company_descr_wrap h2 {
@@ -87,6 +94,10 @@
 	font-size: 12px;
 }
 
+.header_info .contacts_wrap a {
+
+	font-size: 14px;
+}
 
 
 .button_wrap {
